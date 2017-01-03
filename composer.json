@@ -1,0 +1,21 @@
+{
+  "name": "gatherdigital-pimcore-plugin/sns-subscriber",
+  "description": "An subscriber that can receive Messages from AWS SNS topics, storing messages as a custom persistent model",
+  "type": "pimcore-plugin",
+  "license": "GPL-3.0+",
+  "keywords": ["pimcore","plugin", "sns", "aws"],
+  "homepage": "https://www.gatherdigital.co.uk",
+  "authors": [
+    {
+      "name": "Gather Digital Team",
+      "email": "hello@gatherdigital.co.uk",
+      "homepage": "https://www.gatherdigital.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "pimcore/installer-plugin": "~1.3",
+    "aws/aws-php-sns-message-validator": "1.1.0"
+  }
+}
